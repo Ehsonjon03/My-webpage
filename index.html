@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        img {
+            max-width: 200px;
+            border-radius: 10px;
+        }
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #999;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        .two-column {
+            display: flex;
+            margin-top: 20px;
+        }
+        .menu {
+            width: 30%;
+            background-color: #e8e8e8;
+            padding: 10px;
+        }
+        .content {
+            width: 70%;
+            padding: 10px;
+        }
+        form {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            width: 300px;
+            background-color: #fff;
+        }
+        .btn {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Headings -->
+    <h1>Student: Usmanov Esanjon</h1>
+    <h2>Group: SE-2406</h2>
+    <h3>About Me</h3>
+
+    <!-- Paragraph about yourself -->
+    <p>Hello! My name is Usmanov Esanjon. I'm a Software engineer student at Astana IT University. I'm passionate about web development, learning new technologies, and solving real-world problems with code.</p>
+
+    <!-- Lists -->
+    <h3>My Hobbies</h3>
+    <ol>
+        <li>Reading</li>
+        <li>Watching Football</li>
+        <li>Playing Football</li>
+        <li>Gaming</li>
+    </ol>
+
+    <h3>My Favorite Websites</h3>
+    <ul>
+        <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+        <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+    </ul>
+
+    <!-- Image -->
+    <h3>My Photo</h3>
+    <img src="pedri.png" alt="My Photo">
+
+    <!-- Button -->
+    <h3>Button</h3>
+    <button class="btn">Click Me</button>
+
+    <!-- Table -->
+    <h3>My Weekly Class Schedule</h3>
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Day</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Web Technologies</td>
+            <td>Monday</td>
+            <td>10:00 - 11:30</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Tuesday</td>
+            <td>12:00 - 13:30</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>Wednesday</td>
+            <td>14:00 - 15:30</td>
+        </tr>
+    </table>
+
+    <!-- Optional: Two-column layout using tables (using CSS Flexbox here for cleaner design) -->
+    <h3>Website Layout Example</h3>
+    <div class="two-column">
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <p>This is the main content area where I write about my learning journey, projects, and thoughts. 😊📘💻</p>
+        </div>
+    </div>
+
+    <!-- Form -->
+    <h3>Contact Me</h3>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="color">Favorite Color:</label><br>
+        <input type="color" id="color" name="color"><br><br>
+
+        <input type="submit" value="Submit" class="btn">
+    </form>
+
+</body>
+</html>
